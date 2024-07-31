@@ -1,0 +1,84 @@
+/* src/Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+}
+
+.add {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #006015;;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #00b342;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th, .dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard-table th {
+  background-color: #218838;
+}
+
+.dashboard-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.update-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+.dashboard-table td {
+  text-align: center;
+}
+
+.dashboard-table .rating-stars {
+  font-size: 1.5rem;
+  color: gold; /* Color for the filled stars */
+}
+
+.dashboard-table .rating-stars.empty {
+  color: lightgray; /* Color for the empty stars */
+}
